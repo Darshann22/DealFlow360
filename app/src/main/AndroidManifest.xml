@@ -14,6 +14,18 @@
             android:exported="false" />
 
         <activity
+            android:name=".RiskActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ApprovalActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".NegotiationActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".DealsActivity"
             android:exported="false" />
 

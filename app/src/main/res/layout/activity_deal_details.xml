@@ -3,6 +3,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:background="#F5F7FB">
 
     <LinearLayout
@@ -115,6 +116,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnRisk"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="15dp"
@@ -123,6 +125,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
+            android:id="@+id/btnApproval"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="10dp"
@@ -131,6 +134,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
+            android:id="@+id/btnNegotiation"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="10dp"
